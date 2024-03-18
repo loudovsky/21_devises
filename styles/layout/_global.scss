@@ -1,0 +1,32 @@
+body {
+    font-family: "Tilt Neon", sans-serif;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1500px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    .convert {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .result {
+        display: flex;
+        align-items: flex-end;
+        .result__amount {
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 1.15;
+        }
+        .result__currency {
+            line-height: 1.15;
+        }
+    }
+}
+
+h1 {
+    text-align: center;
+}
